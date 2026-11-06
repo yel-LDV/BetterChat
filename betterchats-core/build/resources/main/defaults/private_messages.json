@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "commandAliases": ["msg", "whisper", "tell", "w"],
+  "replyCommandAliases": ["r", "reply"],
+  "takeOverExistingCommands": false,
+  "formatIncoming": "<dark_purple>[Privado] <light_purple>{sender} <italic>susurra</italic> <dark_gray>» <white>{message}",
+  "formatOutgoing": "<dark_purple>[Privado] <gray>Tú a {receiver} <dark_gray>» <white>{message}",
+  "sound": {
+    "enabled": true,
+    "sound": "block.note_block.pling",
+    "volume": 0.8,
+    "pitch": 2.0
+  },
+  "rateLimit": { "messages": 6, "perSeconds": 10 },
+  "respectVanish": true,
+  "vanishSeePermission": "betterchats.vanish.see",
+  "allowSelfMessage": false,
+  "notifyIgnoredSender": false,
+  "spy": {
+    "enabled": true,
+    "permission": "betterchats.spy",
+    "format": "<dark_gray>[Spy] <gray>{sender} → {receiver}: <white>{message}"
+  }
+}

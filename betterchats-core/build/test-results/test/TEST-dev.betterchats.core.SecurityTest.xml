@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.betterchats.core.SecurityTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-10-18T17:17:35" hostname="DESKTOP-C8MAQV3" time="0.075">
+  <properties/>
+  <testcase name="codigosSeccionEnPlantillaYLang()" classname="dev.betterchats.core.SecurityTest" time="0.015"/>
+  <testcase name="demasiadasEtiquetasVanComoTexto()" classname="dev.betterchats.core.SecurityTest" time="0.002"/>
+  <testcase name="itemConNbtEnormeNoTiraAlChat()" classname="dev.betterchats.core.SecurityTest" time="0.037"/>
+  <testcase name="zalgoSeRecorta()" classname="dev.betterchats.core.SecurityTest" time="0.0"/>
+  <testcase name="seccionLegacySeElimina()" classname="dev.betterchats.core.SecurityTest" time="0.0"/>
+  <testcase name="politicaConPermisos()" classname="dev.betterchats.core.SecurityTest" time="0.002"/>
+  <testcase name="argumentosDePapiLleganSinConvertir()" classname="dev.betterchats.core.SecurityTest" time="0.002"/>
+  <testcase name="politicaQuitaEtiquetasProtegidasDeLasListas()" classname="dev.betterchats.core.SecurityTest" time="0.0"/>
+  <testcase name="unicodeRaroNoRompe()" classname="dev.betterchats.core.SecurityTest" time="0.002"/>
+  <testcase name="plantillaConvierteLegacy()" classname="dev.betterchats.core.SecurityTest" time="0.001"/>
+  <testcase name="saltosDeLineaEInvisiblesNoPermitenSuplantar()" classname="dev.betterchats.core.SecurityTest" time="0.001"/>
+  <testcase name="lookupsDeLog4jBloqueados()" classname="dev.betterchats.core.SecurityTest" time="0.002"/>
+  <testcase name="plantillaNoInterpretaNombresNiPlaceholderApi()" classname="dev.betterchats.core.SecurityTest" time="0.003"/>
+  <testcase name="etiquetasAnidadasYEscapes()" classname="dev.betterchats.core.SecurityTest" time="0.001"/>
+  <testcase name="sinEtiquetasTodoEsTextoLiteral()" classname="dev.betterchats.core.SecurityTest" time="0.0"/>
+  <testcase name="codigosAmpersandSoloSiEstanPermitidos()" classname="dev.betterchats.core.SecurityTest" time="0.0"/>
+  <testcase name="colorPermitidoNoAbreClic()" classname="dev.betterchats.core.SecurityTest" time="0.001"/>
+  <testcase name="colorDelPrefijoDePapiSigueAplicandoComoEnLegacy()" classname="dev.betterchats.core.SecurityTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

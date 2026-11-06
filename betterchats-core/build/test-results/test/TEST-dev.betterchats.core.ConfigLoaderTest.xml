@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.betterchats.core.ConfigLoaderTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-18T17:17:35" hostname="DESKTOP-C8MAQV3" time="0.429">
+  <properties/>
+  <testcase name="migraVersionAnteriorConCopia(Path)" classname="dev.betterchats.core.ConfigLoaderTest" time="0.221"/>
+  <testcase name="exactamenteUnDefaultEIdCoincidente(Path)" classname="dev.betterchats.core.ConfigLoaderTest" time="0.042"/>
+  <testcase name="porDefectoCargaSinErrores(Path)" classname="dev.betterchats.core.ConfigLoaderTest" time="0.023"/>
+  <testcase name="chatColorsValidaColoresYSlots(Path)" classname="dev.betterchats.core.ConfigLoaderTest" time="0.035"/>
+  <testcase name="jsonMalFormadoYFaltaMessage(Path)" classname="dev.betterchats.core.ConfigLoaderTest" time="0.036"/>
+  <testcase name="placeholdersObsoletosSeAceptanConAviso(Path)" classname="dev.betterchats.core.ConfigLoaderTest" time="0.031"/>
+  <testcase name="errorConRutaDelCampo(Path)" classname="dev.betterchats.core.ConfigLoaderTest" time="0.035"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

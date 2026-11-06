@@ -1,0 +1,38 @@
+{
+  "configVersion": 1,
+  "language": "es",
+  "persistence": {
+    "type": "json",
+    "autosaveSeconds": 300
+  },
+  "chat": {
+    "strategy": "HYBRID",
+    "listenerPriority": "NORMAL",
+    "legacyColorsInFormats": true,
+    "fallbackToDefaultOnPermissionLoss": true,
+    "permissionLostMessage": "<prefix><red>Ya no tienes acceso a ese chat; vuelves al chat general."
+  },
+  "security": {
+    "defaultAllowedPlayerTags": [],
+    "bypassPermission": "betterchats.tags.all",
+    "blockLookupPatterns": true
+  },
+  "antiSpam": {
+    "enabled": true,
+    "duplicateCooldownSeconds": 3,
+    "maxLength": 256,
+    "bypassPermission": "betterchats.bypass.antispam"
+  },
+  "snapshot": {
+    "refreshTicks": 20,
+    "placeholders": []
+  },
+  "commands": {
+    "takeOverExistingCommands": false,
+    "admin": ["betterchats", "bchats"],
+    "chat": ["chat", "channel", "ch"],
+    "ignore": ["ignore"],
+    "unignore": ["unignore"]
+  },
+  "devAutoReload": false
+}

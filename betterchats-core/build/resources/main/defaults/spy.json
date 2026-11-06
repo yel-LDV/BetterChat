@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "commandAliases": ["spy", "socialspy", "bspy"],
+  "logToConsole": false,
+  "restoreOnJoin": true,
+  "channels": {
+    "team": {
+      "permission": "betterchats.spy.team",
+      "format": "<dark_gray>[Spy] <gray>[{target}<gray>] {sender}: <white>{message}"
+    },
+    "velezcore.msg": {
+      "permission": "betterchats.spy.velezcore",
+      "format": "<dark_gray>[Spy<gray>·<gold>Velez<dark_gray>] <gray>{sender} → {target}: <white>{message}"
+    },
+    "vclans.clan": {
+      "permission": "betterchats.spy.vclans",
+      "format": "<dark_gray>[Spy<gray>·<aqua>Clan {clan}<dark_gray>] <gray>{sender}: <white>{message}"
+    },
+    "vclans.ally": {
+      "permission": "betterchats.spy.vclans",
+      "format": "<dark_gray>[Spy<gray>·<light_purple>Aliados {clan}<dark_gray>] <gray>{sender}: <white>{message}"
+    }
+  }
+}

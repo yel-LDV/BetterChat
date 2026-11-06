@@ -1,0 +1,9 @@
+name: BetterChatsExample
+version: 1.0.0
+main: dev.betterchats.example.ExamplePlugin
+description: Ejemplo de uso de la API de BetterChats.
+depend: [BetterChats]
+commands:
+  bcexample:
+    description: Demo de la API de BetterChats.
+    usage: /bcexample <join|pm <jugador> <mensaje>>

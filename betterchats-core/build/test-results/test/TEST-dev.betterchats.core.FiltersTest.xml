@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.betterchats.core.FiltersTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-18T17:17:35" hostname="DESKTOP-C8MAQV3" time="0.013">
+  <properties/>
+  <testcase name="longitud()" classname="dev.betterchats.core.FiltersTest" time="0.003"/>
+  <testcase name="multiMensajeCuentaCadaLinea()" classname="dev.betterchats.core.FiltersTest" time="0.0"/>
+  <testcase name="duplicadosYBypass()" classname="dev.betterchats.core.FiltersTest" time="0.002"/>
+  <testcase name="rateLimitVentanaDeslizante()" classname="dev.betterchats.core.FiltersTest" time="0.001"/>
+  <testcase name="cadenaRespetaPrioridadYModificaciones()" classname="dev.betterchats.core.FiltersTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

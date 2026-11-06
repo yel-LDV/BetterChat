@@ -1,0 +1,16 @@
+{
+  "id": "default",
+  "displayName": "<gray>[Global]",
+  "isDefault": true,
+  "isStaffOnly": false,
+  "priority": 0,
+  "format": "<gray>{displayName} <dark_gray>» <white>{message}",
+  "allowedPlayerTags": [],
+  "sound": {
+    "enabled": false,
+    "sound": "entity.experience_orb.pickup",
+    "volume": 1.0,
+    "pitch": 1.0
+  },
+  "rateLimit": { "messages": 5, "perSeconds": 10 }
+}

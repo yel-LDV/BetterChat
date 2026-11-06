@@ -1,0 +1,85 @@
+name: BetterChats
+version: 1.0.0
+main: dev.betterchats.legacy.BetterChatsPlugin
+author: Velez
+description: Proveedor de API y motor de chat (equipos, mensajes privados, spy, formato seguro con MiniMessage).
+softdepend: [PlaceholderAPI, packetevents]
+
+# Los comandos se registran en tiempo de ejecucion con los alias de
+# config.json, private_messages.json y spy.json (no aqui).
+
+permissions:
+  betterchats.*:
+    default: false
+    description: Todo BetterChats.
+    children:
+      betterchats.admin: true
+      betterchats.staff: true
+      betterchats.spy.all: true
+      betterchats.tags.all: true
+      betterchats.bypass.antispam: true
+      betterchats.ignore.exempt: true
+      betterchats.ignore.bypass: true
+      betterchats.vanish.see: true
+  betterchats.admin:
+    default: op
+    description: /betterchats (reload, teams, join, leave...).
+  betterchats.staff:
+    default: op
+    description: Leer y escribir en el chat de staff.
+  betterchats.msg:
+    default: true
+    description: /msg y /reply.
+  betterchats.ignore:
+    default: true
+    description: /ignore y /unignore.
+  betterchats.ignore.exempt:
+    default: op
+    description: No puede ser ignorado.
+  betterchats.ignore.bypass:
+    default: op
+    description: Sus mensajes llegan aunque el receptor le ignore.
+  betterchats.vanish.see:
+    default: op
+    description: Puede enviar PMs a jugadores en vanish.
+  betterchats.spy.all:
+    default: op
+    description: Puede espiar todos los canales (/spy).
+    children:
+      betterchats.spy: true
+      betterchats.spy.team: true
+      betterchats.spy.velezcore: true
+      betterchats.spy.vclans: true
+  betterchats.spy:
+    default: op
+    description: Espiar los mensajes privados de BetterChats.
+  betterchats.spy.team:
+    default: op
+    description: Espiar los chats privados en los que no estas.
+  betterchats.spy.velezcore:
+    default: op
+    description: Espiar los /msg de VelezCore.
+  betterchats.spy.vclans:
+    default: op
+    description: Espiar el chat de clan y de aliados de vClans.
+  betterchats.tags.color:
+    default: op
+    description: Colores (&a, &#RRGGBB, <red>) y degradados escritos en tus mensajes.
+  betterchats.tags.format:
+    default: op
+    description: Negrita, cursiva, subrayado y tachado escritos en tus mensajes (&l &o &n &m).
+  # Cada opcion de /chatcolor usa betterchats.chatcolor.<id> (formatos:
+  # betterchats.chatcolor.format.<id>). Sin declarar = solo OP por defecto;
+  # con LuckPerms puedes dar betterchats.chatcolor.* para todo.
+  betterchats.chatcolor:
+    default: true
+    description: Abrir /chatcolor (cada color necesita ademas su permiso).
+  betterchats.tags.click:
+    default: false
+    description: Eventos de clic en tus mensajes (solo administradores).
+  betterchats.tags.all:
+    default: false
+    description: Todas las etiquetas MiniMessage (bypass).
+  betterchats.bypass.antispam:
+    default: op
+    description: Ignora rate limit, duplicados y longitud.

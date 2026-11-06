@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"dev.betterchats.api"},{"l":"dev.betterchats.api.event"},{"l":"dev.betterchats.api.filter"},{"l":"dev.betterchats.api.spy"},{"l":"dev.betterchats.api.text"}];updateSearchResults();

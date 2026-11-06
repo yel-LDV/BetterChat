@@ -1,0 +1,4 @@
+Coloca aqui el jar de PlaceholderAPI que usa tu servidor (por ejemplo
+PlaceholderAPI-2.11.6.jar). Gradle compila contra el en vez de descargarlo.
+No se incluye dentro de BetterChats: en el servidor se usa el PlaceholderAPI
+instalado en plugins/.

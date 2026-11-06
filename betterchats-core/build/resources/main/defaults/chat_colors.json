@@ -1,0 +1,50 @@
+{
+  "enabled": true,
+  "commandAliases": ["chatcolor", "colores", "chatcolors"],
+  "title": "&8Colores de chat",
+  "rows": 6,
+  "applyToPrivateMessages": true,
+  "status": {
+    "selected": "&a▶ Seleccionado &7(click para quitarlo)",
+    "available": "&eClick para usarlo",
+    "locked": "&c✖ Bloqueado"
+  },
+  "filler": { "material": "STAINED_GLASS_PANE", "data": 15, "name": " " },
+  "reset": {
+    "material": "BARRIER", "data": 0, "slot": 49,
+    "name": "&c&lQuitar color y formatos",
+    "lore": ["&7Vuelves a escribir con el color normal."]
+  },
+  "colors": [
+    { "id": "black",        "color": "black",        "material": "WOOL",           "data": 15, "slot": 10, "name": "&0Negro",          "lore": ["&7Escribirás en &0negro&7."] },
+    { "id": "dark_blue",    "color": "dark_blue",    "material": "LAPIS_BLOCK",    "data": 0,  "slot": 11, "name": "&1Azul oscuro",    "lore": ["&7Escribirás en &1azul oscuro&7."] },
+    { "id": "dark_green",   "color": "dark_green",   "material": "WOOL",           "data": 13, "slot": 12, "name": "&2Verde oscuro",   "lore": ["&7Escribirás en &2verde oscuro&7."] },
+    { "id": "dark_aqua",    "color": "dark_aqua",    "material": "WOOL",           "data": 9,  "slot": 13, "name": "&3Cian",           "lore": ["&7Escribirás en &3cian&7."] },
+    { "id": "dark_red",     "color": "dark_red",     "material": "REDSTONE_BLOCK", "data": 0,  "slot": 14, "name": "&4Rojo oscuro",    "lore": ["&7Escribirás en &4rojo oscuro&7."] },
+    { "id": "dark_purple",  "color": "dark_purple",  "material": "WOOL",           "data": 10, "slot": 15, "name": "&5Morado",         "lore": ["&7Escribirás en &5morado&7."] },
+    { "id": "gold",         "color": "gold",         "material": "GOLD_BLOCK",     "data": 0,  "slot": 16, "name": "&6Dorado",         "lore": ["&7Escribirás en &6dorado&7."] },
+    { "id": "gray",         "color": "gray",         "material": "WOOL",           "data": 8,  "slot": 19, "name": "&7Gris",           "lore": ["&7Escribirás en gris."] },
+    { "id": "dark_gray",    "color": "dark_gray",    "material": "WOOL",           "data": 7,  "slot": 20, "name": "&8Gris oscuro",    "lore": ["&7Escribirás en &8gris oscuro&7."] },
+    { "id": "blue",         "color": "blue",         "material": "WOOL",           "data": 11, "slot": 21, "name": "&9Azul",           "lore": ["&7Escribirás en &9azul&7."] },
+    { "id": "green",        "color": "green",        "material": "WOOL",           "data": 5,  "slot": 22, "name": "&aVerde",          "lore": ["&7Escribirás en &averde&7."] },
+    { "id": "aqua",         "color": "aqua",         "material": "WOOL",           "data": 3,  "slot": 23, "name": "&bCeleste",        "lore": ["&7Escribirás en &bceleste&7."] },
+    { "id": "red",          "color": "red",          "material": "WOOL",           "data": 14, "slot": 24, "name": "&cRojo",           "lore": ["&7Escribirás en &crojo&7."] },
+    { "id": "light_purple", "color": "light_purple", "material": "WOOL",           "data": 2,  "slot": 25, "name": "&dRosa",           "lore": ["&7Escribirás en &drosa&7."] },
+    { "id": "yellow",       "color": "yellow",       "material": "WOOL",           "data": 4,  "slot": 28, "name": "&eAmarillo",       "lore": ["&7Escribirás en &eamarillo&7."] },
+    { "id": "white",        "color": "white",        "material": "WOOL",           "data": 0,  "slot": 29, "name": "&fBlanco",         "lore": ["&7Escribirás en &fblanco&7."] },
+
+    { "id": "rainbow", "miniMessage": "<rainbow>", "material": "NETHER_STAR", "data": 0, "slot": 31,
+      "name": "&cA&6r&ec&ao &bi&9r&di&cs", "lore": ["&7Cada letra de un color.", "&8(Efecto especial)"] },
+    { "id": "fuego", "miniMessage": "<gradient:#ff5555:#ffaa00:#ffff55>", "material": "BLAZE_POWDER", "data": 0, "slot": 32,
+      "name": "&cF&6u&6e&eg&eo", "lore": ["&7Degradado rojo → amarillo.", "&8(Efecto especial)"] },
+    { "id": "oceano", "miniMessage": "<gradient:#55ffff:#5555ff>", "material": "PRISMARINE_SHARD", "data": 0, "slot": 33,
+      "name": "&bO&bc&3é&9a&9n&1o", "lore": ["&7Degradado celeste → azul.", "&8(Efecto especial)"] }
+  ],
+  "formats": [
+    { "id": "bold",          "decoration": "bold",          "material": "ANVIL",           "data": 0, "slot": 38, "name": "&f&lNegrita",   "lore": ["&7Se combina con cualquier color."] },
+    { "id": "italic",        "decoration": "italic",        "material": "FEATHER",         "data": 0, "slot": 39, "name": "&f&oCursiva",   "lore": ["&7Se combina con cualquier color."] },
+    { "id": "underlined",    "decoration": "underlined",    "material": "STRING",          "data": 0, "slot": 40, "name": "&f&nSubrayado", "lore": ["&7Se combina con cualquier color."] },
+    { "id": "strikethrough", "decoration": "strikethrough", "material": "SHEARS",          "data": 0, "slot": 41, "name": "&f&mTachado",   "lore": ["&7Se combina con cualquier color."] },
+    { "id": "obfuscated",    "decoration": "obfuscated",    "material": "FIREWORK_CHARGE", "data": 0, "slot": 42, "name": "&f&kOOO&r &fOfuscado", "lore": ["&7Letras que cambian sin parar."] }
+  ]
+}

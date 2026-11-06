@@ -1,0 +1,18 @@
+{
+  "id": "staff",
+  "displayName": "<red>[Staff]",
+  "isDefault": false,
+  "isStaffOnly": true,
+  "permission": "betterchats.staff",
+  "implicitMembers": true,
+  "priority": 10,
+  "format": "<red>[Staff] <gray>[{player_location}] <red>{playerName} <dark_gray>» <white>{message}",
+  "allowedPlayerTags": ["color", "bold", "italic"],
+  "sound": {
+    "enabled": true,
+    "sound": "entity.experience_orb.pickup",
+    "volume": 1.0,
+    "pitch": 1.5
+  },
+  "rateLimit": { "messages": 5, "perSeconds": 10 }
+}
